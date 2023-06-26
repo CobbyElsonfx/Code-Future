@@ -2,7 +2,7 @@
   <img src="./assets/mylogo.png" alt="logo" width="170"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio Website</b></h3>
+  <h3><b>Code Future</b></h3>
 
 </div>
 
@@ -27,9 +27,9 @@
 - [📝 License](#license)
 
 
-# 📖Portfolio Website <a name="about-project"></a>
+# 📖Code Future <a name="about-project"></a>
 
-**Portfolio Website** The project I'm working on is called "My Portfolio." It aims to create a personal portfolio website to showcase my design skills and serve as a platform for applying responsive mobile design techniques, media screen integration, and flexbox layout principles that I have learned and practiced.
+**Portfolio Website** The project I'm working on is called "Code Future." It aims to serve as a digital representation for Code Future Academy , by show casing their values,goals and some other detais about the company.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -42,12 +42,16 @@
   <ul>
     <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
   </ul>
+  <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/javascript">Javascript</a></li>
+  </ul>
 </details>
 
 ### Key Features <a name="key-features"></a>
 
-- **It  disaplys the home of the portfolio**
-- **Ignore files such as node_modules**
+- **It  has the home  and about page which provides some basic information about the company**
+- **Improved accesibility issues**
+- **Search Engine Optimization**
 - **Uses Linters for writing quality**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -55,7 +59,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](https://cobbyelsonfx.github.io/Portfolio-Website/)
+- [Live Demo Link](https://cobbyelsonfx.github.io/Code-Future)
 
 > 
 
@@ -72,7 +76,13 @@
 ###  Prerequisites
 
 
-To successfully execute this project, the following prerequisites are required: Having a code editor such as Visual Studio, installing a Git version control system, downloading Node.js, and configuring a linter on your local computer.
+To successfully execute this project, the following prerequisites are required:
+<ul>
+<li>Code Editor: Visual Studio</li>
+<li>Version Control:Git</li>
+<li>Node js Installed</li>
+<li>Linters configuration</li>
+</ul> 
 
 ```
 Example command: npm install to install dependent package
@@ -105,6 +115,7 @@ To run tests, run the following command:
 ```
   npx stylelint "**/*.{css,scss}"
   npx hint .
+  npx eslint .
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -115,12 +126,6 @@ To run tests, run the following command:
 
 - GitHub: [@CobbyElsonfx](https://github.com/CobbyElsonfx)
 - LinkedIn: [Andoh Francis](https://www.linkedin.com/in/andoh-francis-133aa7245/)
-
-👤 **Soban Syeed**
-
-- GitHub: [@SnakyMz](https://github.com/SnakyMz)
-- Twitter: [@SobanSyeed](https://twitter.com/SobanSyeed)
-- LinkedIn: [Soban Syeed](https://www.linkedin.com/in/soban-syeed-82985b241/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,13 +145,13 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you liked this project and would like to support me email me through my email address andohfrancis9187@gmail.com
+If you liked this project and would like to support me, email me through my email address andohfrancis9187@gmail.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements">ismael Mastronardi</a>
 
-I would like to thank my Microvese partner who helped me a lot during the project.
+I would like to thank my Microvese partners who helped me a lot during the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,10 +160,6 @@ I would like to thank my Microvese partner who helped me a lot during the projec
 - **Where did you get the template for the website?**
 
   - Figma
-
-- **Will you include javascript?**
-
-  - Maybe
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
