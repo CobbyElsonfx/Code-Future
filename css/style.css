@@ -1,6 +1,6 @@
 :root {
-    --primary:#FFFFFF;
-    --nav-banner:#3E3E3E;
+    --primary:#1f2022;
+    --nav-banner:333;
     --nav-text-hover:#F07F7E;
     --nav-text-color:#868686;
     --hero-text-color:#515151;
@@ -9,15 +9,29 @@
     --program-section-card-bg-color:#3B3E45;
     --program-section-card-title:#FF5438;
     --pioneers-section-bg-color:#F8F8F8;
-    --pioneer-profile-text-color:#F78C89
+    --pioneer-profile-text-color:#F78C89;
+    --sponsors-section-bg-color:#414246;
+    --footer-bg-color:#F2F2F2;
+    --button-bg-color:#05aae1
+
+    }
+
+    body {
+        width: 100vw;
     }
     
     
     * {
         box-sizing: border-box;
         padding: 0px;
-        margin: 0px;
+        border: 1px solid red ;
     }
+
+    .screen-width {
+        width: 80%;
+        margin: auto;
+    }
+
     
     li{
         list-style: none;
@@ -26,6 +40,22 @@
     a {
         text-decoration: none;
     }
+
+    h1 {
+        font-size: 70px;
+        font-weight: 900; 
+        background-image: url("/assets/photos/text.jpg");
+        background-position:center;
+        background-clip: text;
+        -webkit-background-clip:text;
+        background-size: cover;
+        color: transparent;
+    }
+
+    /* .text-bg-clip {
+        font-size: 70px;    */
+
+    
 
     header > #nav-banner{
         height: 30px;
@@ -56,29 +86,138 @@
 
     .headline{
       background-color: var(--primary);
-      background-image: url("/assets/photos/bta-students.jpg");
-      height: 887px;
+      background-image: url("/assets/photos/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
+      min-height: 800%;
       background-size: cover;
       position: relative;
       z-index: -2;
+      
     } 
     
     .headline .overlay {
         background-color:rgb(255, 255, 255,0.9);
         position: absolute;
-        height: 887px;
+        height: 100%;
         width: 100%;
         z-index: -1;
     }
 
-    .headline .container {
+    .headline .content {
+        padding:6rem 20% 6rem 0rem; 
         z-index: 5;
+        display: flex;  
+        flex-direction: column;
+        gap:3rem;
+        justify-content: center;
+        align-items: flex-start;
+        
+    }
+
+    .headline .content .sub-mission{
+      padding: 2rem;
+      border: 8.497px solid white;
+    }
+
+    .headline .content .meetup-date  h2 {
+        font-size: 42.98px;
+        color: var(--hero-date-color);
+        font-weight: 900;
+    }
+
+    .headline .content .meetup-date p {
+        font-size: 27.49px;
+        line-height: 36px;
+        font-weight: 700;
+        letter-spacing: -0.552px;
+        color: var(--nav-text-color);
+
     }
 
 
     .programs-section{
         background-color: var(--program-section);
-        height: 587px;
+        display: inline-flex;
+        padding: 3rem 0rem 3rem 0rem;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .programs-section .program-content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 70px
+    }
+
+    .program-content .program-details{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 3px;
+    }
+
+    .programs-details 
+    .program-card { 
+        background-color: var(--program-section-card-bg-color);
+        display: flex;
+        padding: 6px 18px 22px 18px;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .program-card .card-inner {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .card-inner p {
+        color:var(--pioneer-profile-text-color);
+        text-align: center;
+        font-size: 12px;
+        font-family: Lato;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 0.72px;
+        height: 92px;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+
+    }
+
+    .card-inner  h2{
+        color: #FFF;
+        font-size: 20px;
+        font-family: Lato;
+        line-height: 28px;
+        letter-spacing: -0.2px;
+        text-decoration-line: underline;
+        color: var(--program-section-card-title);
+    }
+
+    .pioneers-section {
+        height: 923px;
+        background-color: var();
+    }
+
+    .sponsors-section {
+        height: 242px;
+        background-color: var(--sponsors-section-bg-color);
+    }
+
+    footer {
+        height: 245px;
+        background-color: var(--primary);
     }
 
