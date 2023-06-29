@@ -1,3 +1,41 @@
+const buttonMenu = document.querySelector('#header-button');
+const buttonImage = document.querySelector('#header-button-image');
+
+const navigationMenu = document.querySelector('#header-nav');
+const navigationLinks = document.querySelectorAll('.header-list-item');
+
+function toggleNavigation() {
+  navigationMenu.classList.toggle('header-nav-active');
+}
+
+function changeButtonIcon(path) {
+  buttonImage.src = path;
+}
+const navigationIcons = ['./assets/burguer.svg', './assets/x-icon.svg'];
+navigationLinks.forEach((element) => {
+  element.addEventListener('click', () => {
+    toggleNavigation();
+    changeButtonIcon(navigationIcons[0]);
+    buttonMenu.style.width = 'initial';
+  });
+});
+
+buttonMenu.addEventListener('click', () => {
+  const actualButtonIcon = buttonImage.src;
+
+  if (actualButtonIcon.includes('burguer')) {
+    changeButtonIcon(navigationIcons[1]);
+    buttonMenu.style.width = '12px';
+  } else {
+    changeButtonIcon(navigationIcons[0]);
+    buttonMenu.style.width = 'initial';
+  }
+  toggleNavigation();
+});
+
+
+
+// dynamic rendering of elements
 const featuresArray = [
     {
       name: 'Yachai Benkler',
@@ -48,7 +86,7 @@ const featuresArray = [
   <div class="col-xm-12 col-sm-12 col-md-5 card-container">
               <img class="card-img" src= "${eachPerson.image}" alt="">
               <div class="about-pioneer">
-                <h3>${eachPerson.name}</h3>
+                <h3 class="name" >${eachPerson.name}</h3>
                 <p class="intro">${eachPerson.intro}</p>
                 <p class="description">${eachPerson.description}</p>
               </div>

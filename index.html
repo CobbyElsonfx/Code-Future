@@ -4,21 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Future</title>
-    <!-- Font Awesome -->
-    <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    rel="stylesheet"
-    />
-    <!-- Google Fonts -->
-    <link
-    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-    rel="stylesheet"
-    />
-    <!-- MDB -->
-    <link
-    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.0/mdb.min.css"
-    rel="stylesheet"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700&display=swap" rel="stylesheet">
@@ -38,24 +23,28 @@
                 </ul>
             </div>
         </div>
-        <nav class="navbar navbar-expand-md  screen-width">
-          <div class="container-fluid">
+        <div class="navbar-container">
+          <nav class="navbar screen-width">
             <a class="navbar-brand" href="#"><img src="/assets/icons/logo.svg" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+            <button type="button" class="hamburger-btn " id="header-button">
+              <img
+                  id="hamburger-image"
+                  class="header-toggle"
+                  src="./assets/icons/mobile_menu 1.png"
+                  alt="Menu icon on the mobile version"
+                />
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav ms-auto">
-                <a class="nav-link" aria-current="page" href="#">About</a>
-                <a class="nav-link" href="#">Program</a>
-                <a class="nav-link" href="#">Join</a>
-                <a class="nav-link"  href="#" >Sponsor</a>
-                <a class="nav-link"  href="#" >News</a>
-                <a class="nav-link cc-campaign" href="#">CC Campaign</a>
-              </div>
-            </div>
-          </div>
-        </nav>
+            <ul class="nav-items  header-nav-inactive header-list" >
+              <li ><a class="nav-link" aria-current="page" href="#">About</a></li>
+              <li ><a class="nav-link" href="#">Program</a></li> 
+              <li ><a class="nav-link" href="#">Join</a></li>
+              <li ><a class="nav-link" href="#">Sponsor</a></li>
+              <li ><a class="nav-link" href="#">News</a></li>
+              <li ><a class="nav-link cc-campaign" href="#">CC Campaign</a></li>
+            </ul>
+          </nav>
+
+        </div>
     </header>
     <main >
       <section class="headline">
@@ -64,7 +53,7 @@
           <div class="page-title">
             <h2>"Hello Developers"</h2>
             <div class="text-bg-clip">
-              <h1>Creative Commons Global Summit</h1>
+              <h1>Creative Commons Global Summit 2023</h1>
             </div>
           </div>
           <div class="sub-mission">
@@ -91,7 +80,8 @@
               <div class="card-inner">
                 <img src="/assets/icons/program_icon_01 1.svg" alt="">
                 <h2>Lecture</h2> 
-                <p>Listen to the speakers from various
+                <p>
+                  Listen to the speakers from various
                    countries about the messages
                     of sharing and opening.
                 </p>
@@ -139,6 +129,7 @@
               </div>
             </li>
           </ul> 
+          <h2 class="mobile-card-footer">Join CC Global Summit 2015</h2>
           <h2 class="card-footer">SEE THE WHOLE PROGRAM</h2> 
         </div>
       </section>
@@ -180,10 +171,6 @@
         <img src="/assets/icons/cck-logo1 1.svg" alt="">
         <div class="credit-text">
           <h4>2015 Creative Commons Korea. Some Rights Reserved.</h4>
-          <p>
-            달리 정하지 않은 웹사이트의 모든 내용은 크리에이티브 커먼즈 저작자표시 2.0 대한민국 라이선스에 따라 이용할 수 있습니다.
-            자세한 이용기능 내용과 허락조건은 http://creativecommons.org/licences/by/2.0/kr 를 보세요.
-          </p>
         </div>
 
       </div>
