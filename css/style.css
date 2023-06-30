@@ -43,13 +43,20 @@
  
 
     /* .text-bg-clip {
-        font-size: 70px;    */
+        font-size: 70px;    */ 
+
+
+   header {
+    position: fixed;
+   }
 
     
 
     header > #nav-banner{
         height: 30px;
         background-color: var(--nav-banner);
+        width: 100vw;
+        
     }
     
 
@@ -111,6 +118,8 @@
 
     .navbar-container {
         background-color: var(--primary);
+        position: fixed;
+        width: 100vw;
 
     }
 
@@ -133,6 +142,7 @@
             margin: auto;
             position: relative;
         }
+        
         .navbar {
             display: flex;
             align-items: center;
@@ -486,15 +496,7 @@
     }
 
      
-
-
-
-    /* PIONEERS SECTION */
-
-
-
-
-
+/* mobile version */
     @media (width < 768px){
         #nav-banner {
             display: none;
