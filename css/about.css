@@ -1,0 +1,714 @@
+:root {
+    --primary:#ffffff;
+    --nav-banner:#3E3E3E;
+    --nav-text-hover:#F07F7E;
+    --nav-text-active:#ec6361;
+    --nav-text-color:#868686;
+    --hero-text-color:#515151;
+    --hero-date-color:#595959;
+    --program-section:#282B32;
+    --program-section-card-bg-color:rgb(59, 62, 69,0.5);
+    --program-section-card-title:#FF5438;
+    --pioneers-section-bg-color:#F8F8F8;
+    --pioneer-profile-text-color:#F78C89;
+    --sponsors-section-bg-color:#414246;
+    --footer-bg-color:#F2F2F2;
+    --button-bg-color:#05aae1
+
+    }
+
+    body {
+        width: 100vw;
+        font-family: Lato;
+    }
+    
+    
+    * {
+        box-sizing: border-box;
+        padding: 0px;
+        /* border: 1px solid red ; */
+    }
+
+    li{
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    
+
+    header > #nav-banner{
+        height: 30px;
+        background-color: var(--nav-banner);
+    }
+    
+
+    .nav-brand {
+        max-height: 45px;
+        max-width: 115px;
+    }
+
+    /* .nav-items {
+        display: flex;
+        flex-shrink: 2;
+        gap: 0% 20px;
+        justify-content: space-between;
+    } */
+
+
+    .nav-items .nav-link {
+        color: var(--nav-text-color);
+       
+    }
+
+    .nav-items .nav-link:hover {
+        color: var(--nav-text-hover);
+    }
+
+    .nav-items .nav-link:active {
+        color: var(--nav-text-active) ;
+    }
+
+    .nav-items .nav-link.cc-campaign {
+        color: #EC4327;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        border: 5px solid #EC4327;
+        padding: 0.5rem 0.25rem  0.5rem 0.25rem;
+    }
+
+
+
+
+
+
+    .nav-banner-list ul  {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap:20px;
+        font-size: 12px;
+        color: var(--primary);
+        align-items: center; 
+        flex-shrink:0;
+    }
+
+    .nav-banner-list ul li a{
+        color: var(--primary);
+    }
+
+    .navbar-container {
+        background-color: var(--primary);
+
+    }
+
+    
+    /* desktop view */
+
+    @media(width > 768px){
+        h1 {
+            text-align: center;
+            font-size: 70px;
+            font-weight: 900; 
+            background-image: url("/assets/photos/text.jpg");
+            background-position:center;
+            background-clip: text;
+            -webkit-background-clip:text;
+            background-size: cover;
+            color: transparent;
+        }
+
+        .screen-width {
+            width: 80vw;
+            margin: auto;
+            position: relative;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content:space-between;
+            align-self: stretch;
+            flex-shrink: 0;
+            height: 75px;
+            position: relative;
+    
+          }
+    
+          .navbar .nav-items {
+            display: block;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap:15px;
+          }
+        .navbar .hamburger-btn {
+            display: none;
+          }
+
+
+          /* MAIN section */
+          /* headline*/
+
+          .headline {
+            display: inline-flex;
+            width: 100%;
+            min-height: 700px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: url("/assets/photos/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
+            background-size: cover;
+            position: relative;
+          }
+
+          .headline .overlay {
+            top: 0;
+            left: 0;
+            right: 0;
+            background-color:rgb(255, 255, 255,0.9);
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: 0;
+        }
+
+          .hero-content {
+            /* padding-top: 6rem;
+            padding-bottom: 4rem; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 25px;
+            width: 76%;
+            margin: auto;
+            z-index: 1;
+            
+ 
+          }
+
+          .hero-content .about-text {
+            background-color: var(--primary);
+            padding:25px 55px 25px 55px
+          }
+
+          .about-text p {
+            color: #000;
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 21px;
+          }
+
+          .hero-content div p {
+            text-align: center;
+          }
+
+          .contact a{
+            color: #5F5F5F;
+            text-align: center;
+            font-size: 17px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: 25px;
+            letter-spacing: 0.34px;
+            text-decoration-line: underline;
+          }
+
+
+          /* hogo info */
+          .logo-info {
+            display: flex;
+            flex-direction: column;
+            justify-content:center;
+            align-items: center;
+            gap: 10px;
+          }
+
+          .logo-info-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 35px;
+          }
+
+          .logo-info-content h2 {
+            color: #2C2C2C;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 28px;
+            letter-spacing: -0.9px;
+          }
+
+          .logo-info-content p {
+            color: #838383;
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 21px;
+            letter-spacing: -0.48px;
+          }
+        
+
+
+
+
+
+
+
+
+  
+
+    
+    }
+
+     
+
+
+
+    /* PIONEERS SECTION */
+
+
+
+
+/* 
+    @media (width < 768px){
+        #nav-banner {
+            display: none;
+        }
+        h1 {
+            font-size: 36px;
+            font-weight: 900; 
+            background-image: url("/assets/photos/text.jpg");
+            background-position:center;
+            background-clip: text;
+            -webkit-background-clip:text;
+            background-size: cover;
+            color: transparent;
+        }
+          
+        
+          .navbar {
+            padding-left: 10px;
+            height: 100%;
+            display: flex;
+            flex-direction:row-reverse;
+            align-items: center;
+            justify-content: flex-end;
+            gap:20%
+          }
+        
+          .nav-items {
+            top: 0;
+            left: 0;
+            right: 0;
+            position: fixed;
+            padding: 32px 12px;
+            background: rgb(254, 255, 255);
+            z-index: 100;
+            visibility: hidden;
+          }
+        
+          .header-nav-active {
+            visibility: visible;
+          }
+        
+          .hamburger-btn {
+            background: none;
+            border: none;
+            border-style: none;
+            padding: 1rem;
+            padding-right: 6%;
+            cursor: pointer;
+            z-index: 101;
+            background: none;
+            display: block;
+            display: flex;
+            align-self: center;
+
+          }
+
+          .header-toggle {
+            width: 31px;
+            height: 23px;
+          }
+        
+          .header-list {
+            padding: 32px 16px;
+            display: grid;
+            gap: 14px;
+          }
+        
+          .header-list-item {
+            font-size: 32px;
+            color: white;
+            font-weight: 600;
+          }
+
+          
+          
+    .headline{
+        background-color: var(--primary);
+        background-image: url("/assets/photos/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
+        min-height: 800%;
+        width: 100%;
+        background-size: cover;
+        position: relative;
+        z-index: -2;
+        display:flex; 
+        justify-content: center;
+        align-items: center;
+        
+      } 
+      
+      .headline .overlay {
+          background-color:rgb(255, 255, 255,0.9);
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          z-index: -1;
+      }
+  
+      .headline .content {
+          padding:6rem 0rem 6rem 0rem; 
+          z-index: 5;
+          display: flex;  
+          flex-direction: column;
+          gap:30px;
+          justify-content: center;
+          width: 90%;
+          
+      }
+      
+      .headline .content .page-title{
+          display: flex;
+          flex-direction: column;
+          flex-shrink: 1;
+      }
+  
+      .content .page-title h2{
+          color:#EC4327
+      }
+      
+      .content .sub-mission{
+        padding: 0.5rem 0.25rem 0.5rem 0.25rem;
+        border: 8.497px solid white;
+      }
+
+      .sub-mission p {
+        color: #515151;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: -0.12px;
+      }
+
+      .content .meetup-date {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+      }
+  
+      .content .meetup-date  h2 {
+          color: #595959;
+            font-size: 20px;
+            font-family: Gothic A1;
+            font-style: normal;
+            font-weight: 900;
+            letter-spacing: -1.6px;
+      }
+  
+      .content .meetup-date p {
+        color: #595959;
+        font-size: 20px;
+        font-family: Gothic A1;
+        font-style: normal;
+        font-weight: 900;
+        letter-spacing: -1.6px;
+  
+      }
+
+
+          .programs-section{
+            background-color: var(--program-section);
+            display: flex;
+            padding: 3rem 0rem 3rem 0rem;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            background-image: url("/assets/photos/pattern_bg.png");
+        }
+    
+        .programs-section .program-content {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 70px
+        }
+    
+        .program-content .card-header {
+            color: #FFF;
+            font-size: 20px;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: -0.8px;
+        }
+     
+        .program-content .card-footer {
+            display:none;
+        
+        }
+
+        .program-content .mobile-card-footer {
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 28px;
+            letter-spacing: -0.16px;
+            background-color: #FF4F38;
+            padding:20px 50px;
+        }
+    
+        .program-content .program-details{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2px;
+            padding:0px
+        }
+    
+        .program-details 
+        .program-card { 
+            background-color: var(--program-section-card-bg-color);
+            display: flex;
+            width: 95%;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+        }
+    
+        .program-card .card-inner {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            
+        }
+    
+
+        .card-inner p {
+            color: #FFF;
+            font-size: 10.703px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 22.299px;
+            letter-spacing: 0.642px;
+            height: 82px;
+            display: flex;
+            align-items: center;
+
+        }
+    
+        .card-inner  h2{
+            color: #FF5438;
+            font-size: 14.271px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24.975px;
+            letter-spacing: -0.143px;
+            color: var(--program-section-card-title);
+        }
+
+        .card-inner img {
+            padding-left: 5px;
+            width: 57.085px;
+            height: 51.733px;
+        }
+
+        .pioneers-section {
+            min-height: 900px;
+            background-color: var(--primary);
+        }
+    
+    
+        .pioneers-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+        }
+    
+        #pioneers-row {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .pioneers-container h2 {
+            color: #000;
+            font-size: 20px;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: -1px;
+        }
+    
+    
+        #pioneers-row .card-container{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+    
+        }
+    
+         #pioneers-row .card-container img {
+            max-height: 107px;
+            max-width: 106px;
+        }
+        
+        .about-pioneer {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .about-pioneer .name {
+            color: #000;
+            font-size: 15px;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: -0.3px;
+        }
+    
+        .about-pioneer .intro {
+            color: #F78C89;
+            font-size: 10px;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 14.943px;
+            letter-spacing: -0.2px;
+        }
+    
+        .about-pioneer .description {
+            color: #000;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 15px;
+            letter-spacing: -0.7px;
+        }
+    
+        .about-pioneer  h3
+        {
+            color: #000;
+            font-size: 9px;
+            font-family: Lato;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 14px;
+            letter-spacing: -0.54px;
+        }
+
+        
+    .sponsors-section {
+        padding: 1.5rem 0rem 1.5em 0rem;
+        width: 100%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--sponsors-section-bg-color);
+    }
+
+    .sponsors {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .sponsors-section-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .sponsors-section-title{
+        text-align: center;
+        color: #8F8F91;
+        font-size: 30px;
+        line-height: 28px;
+        letter-spacing: -0.3px;
+    }
+
+    .sponsors img {
+        width: 82px;
+        height: 31px;
+    }
+
+    
+
+    footer {
+        height: 100%;
+        background-color: var(--primary);
+        padding: 27px 25px;
+    }
+
+    footer .credit {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .credit.container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    } 
+
+    .credit.container img {
+        width: 135px;
+        height: 31px;
+    }
+
+    .credit-text h4{
+        color: #3B3E45;
+        font-size: 10px;
+        font-family: Lato;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: -0.1px;
+        
+    } */
+
+
+    
+       
+    
+    

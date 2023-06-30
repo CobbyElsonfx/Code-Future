@@ -1,8 +1,8 @@
 const buttonMenu = document.querySelector('#header-button');
-const buttonImage = document.querySelector('#header-button-image');
+const buttonImage = document.querySelector('#hamburger-image');
 
-const navigationMenu = document.querySelector('#header-nav');
-const navigationLinks = document.querySelectorAll('.header-list-item');
+const navigationMenu = document.querySelector('.nav-items');
+const navigationLinks = document.querySelectorAll('.nav-link');
 
 function toggleNavigation() {
   navigationMenu.classList.toggle('header-nav-active');
@@ -11,7 +11,7 @@ function toggleNavigation() {
 function changeButtonIcon(path) {
   buttonImage.src = path;
 }
-const navigationIcons = ['./assets/burguer.svg', './assets/x-icon.svg'];
+const navigationIcons = ['./assets/icons/button-menu.png', './assets/icons/close-icon.svg'];
 navigationLinks.forEach((element) => {
   element.addEventListener('click', () => {
     toggleNavigation();
@@ -23,7 +23,7 @@ navigationLinks.forEach((element) => {
 buttonMenu.addEventListener('click', () => {
   const actualButtonIcon = buttonImage.src;
 
-  if (actualButtonIcon.includes('burguer')) {
+  if (actualButtonIcon.includes('button-menu')) {
     changeButtonIcon(navigationIcons[1]);
     buttonMenu.style.width = '12px';
   } else {
