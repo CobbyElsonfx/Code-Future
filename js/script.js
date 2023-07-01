@@ -55,7 +55,7 @@ function renderDynamicData() {
       name: 'Kwabena Andoh',
       intro: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
       description: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
-      image: '/assets/photos/speaker_01 1 (3).png',
+      image: 'assets/photos/speaker_01 1 (3).png',
     },
     {
       name: 'Thomas Sarkodie',
