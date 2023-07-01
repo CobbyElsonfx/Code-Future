@@ -163,7 +163,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("/assets/photos/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
+    background-image: url("./assets/photos/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
     background-size: cover;
     position: relative;
     padding-top: 6rem;
@@ -486,7 +486,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("/assets/photos/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
+    background-image: url("./assets/photos/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
     background-size: cover;
     position: relative;
     padding-top: 25%;

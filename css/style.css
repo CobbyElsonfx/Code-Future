@@ -78,7 +78,7 @@ header {
   h1 {
     font-size: 70px;
     font-weight: 900;
-    background-image: url("/assets/photos/text.jpg");
+    background-image: url("./assets/photos/text.jpg");
     background-position: center;
     -webkit-background-clip: text;
     background-size: cover;
@@ -148,7 +148,7 @@ header {
   /* headline section */
   .headline {
     background-color: var(--primary);
-    background-image: url("/assets/photos/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
+    background-image: url("./assets/photos/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
     min-height: 500%;
     width: 100%;
     background-size: cover;
@@ -216,7 +216,7 @@ header {
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-image: url("/assets/photos/pattern_bg.png");
+    background-image: url("./assets/photos/pattern_bg.png");
   }
 
   .programs-section .program-content {
@@ -458,7 +458,7 @@ header {
   h1 {
     font-size: 36px;
     font-weight: 900;
-    background-image: url("/assets/photos/text.jpg");
+    background-image: url("./assets/photos/text.jpg");
     background-position: center;
     -webkit-background-clip: text;
     background-size: cover;
@@ -539,7 +539,7 @@ header {
   /* headline section */
   .headline {
     background-color: var(--primary);
-    background-image: url("/assets/photos/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
+    background-image: url("./assets/photos/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
     min-height: 500px;
     width: 100%;
     background-size: cover;
@@ -624,7 +624,7 @@ header {
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-image: url("/assets/photos/pattern_bg.png");
+    background-image: url("./assets/photos/pattern_bg.png");
   }
 
   .programs-section .program-content {
