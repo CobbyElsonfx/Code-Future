@@ -1,9 +1,5 @@
 <div align="center">
-  <img src="./assets/mylogo.png" alt="logo" width="170"  height="auto" />
-  <br/>
-
   <h3><b>Code Future</b></h3>
-
 </div>
 
 # 📗 Table of Contents
@@ -29,7 +25,7 @@
 
 # 📖Code Future <a name="about-project"></a>
 
-**Portfolio Website** The project I'm working on is called "Code Future." It aims to serve as a digital representation for Code Future Academy , by show casing their values,goals and some other detais about the company.
+**Code Future** The project I'm working on is called "Code Future." It aims to serve as a digital representation of an annucal hackathon held by Brigthfield Tech  Academy for Sefwi Bekwai Zone.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,7 +45,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **It  has the home  and about page which provides some basic information about the company**
+- **It  has the home  and about page which provides some basic information about the annual hackathon**
 - **Improved accesibility issues**
 - **Search Engine Optimization**
 - **Uses Linters for writing quality**
@@ -97,8 +93,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/CobbyElsonfx/Portfolio-Website.git
-```
+  git clone https://github.com/CobbyElsonfx/Code-Future.git
 
 ### Install
 
@@ -149,9 +144,9 @@ If you liked this project and would like to support me, email me through my emai
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🙏 Acknowledgments <a name="acknowledgements">ismael Mastronardi</a>
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my Microvese partners who helped me a lot during the project.
+The design idea is originally designed by **👤Cindy Shin in Behance**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
