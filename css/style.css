@@ -54,7 +54,7 @@ header {
   color: var(--nav-text-hover);
 }
 
-.nav-items .nav-link:active {
+.nav-items .nav-link.active {
   color: var(--nav-text-active);
 }
 
@@ -858,8 +858,8 @@ header {
   }
 
   .credit.container .company-logo {
-    width: 135px;
-    height: 31px;
+    width: 120px;
+    height: 41px;
   }
 
   .credit-text h4 {

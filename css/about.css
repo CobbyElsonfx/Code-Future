@@ -65,7 +65,7 @@ header {
   color: var(--nav-text-hover);
 }
 
-.nav-items .nav-link:active {
+.nav-items .nav-link.active {
   color: var(--nav-text-active);
 }
 
