@@ -46,11 +46,6 @@ header {
   z-index: 1000;
 }
 
-.nav-brand {
-  max-height: 45px;
-  max-width: 115px;
-}
-
 .nav-items .nav-link {
   color: var(--nav-text-color);
 }
@@ -103,6 +98,8 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-right: 0;
+    padding-top: 5px;
   }
 
   .nav-banner-list ul {
@@ -128,6 +125,11 @@ header {
     flex-shrink: 0;
     height: 75px;
     z-index: 1000;
+  }
+
+  #navbrand {
+    width: 130px;
+    height: 51px;
   }
 
   .navbar .nav-items {
@@ -440,6 +442,11 @@ header {
     line-height: 20px;
     letter-spacing: -0.56px;
   }
+
+  .company-logo {
+    width: 200px;
+    height: 81px;
+  }
 }
 
 
@@ -467,6 +474,11 @@ header {
     align-items: center;
     justify-content: flex-end;
     gap: 20%;
+  }
+
+  #navbrand {
+    width: 120px;
+    height: 45px;
   }
 
   .nav-items {

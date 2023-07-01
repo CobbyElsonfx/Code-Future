@@ -95,6 +95,11 @@ header {
     color: #ec4327;
   }
 
+  #navbrand {
+    width: 130px;
+    height: 51px;
+  }
+
   .screen-width {
     width: 80vw;
     margin: auto;
@@ -108,6 +113,8 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-right: 0;
+    padding-top: 5px;
   }
 
   header .nav-banner-list ul {
@@ -370,6 +377,11 @@ header {
     gap: 40px;
   }
 
+  #footer-logo-desktop {
+    width: 200px;
+    height: 81px;
+  }
+
   #footer-logo-mobile {
     display: none;
   }
@@ -405,6 +417,11 @@ header {
     align-items: center;
     justify-content: flex-end;
     gap: 20%;
+  }
+
+  #navbrand {
+    width: 120px;
+    height: 45px;
   }
 
   .nav-items {
