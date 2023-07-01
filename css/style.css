@@ -41,6 +41,11 @@ a {
   align-items: center;
 }
 
+#pionneer-underline-bar {
+  background: #d9d9d9;
+  color: #d9d9d9;
+}
+
 header {
   position: fixed;
   z-index: 1000;
@@ -78,7 +83,7 @@ header {
   h1 {
     font-size: 70px;
     font-weight: 900;
-    background-image: url("/assets/photos/text.jpg");
+    background-image: url("../assets/photos/text.jpg");
     background-position: center;
     -webkit-background-clip: text;
     background-size: cover;
@@ -148,7 +153,7 @@ header {
   /* headline section */
   .headline {
     background-color: var(--primary);
-    background-image: url("/assets/photos/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
+    background-image: url("../assets/photos/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
     min-height: 500%;
     width: 100%;
     background-size: cover;
@@ -216,7 +221,7 @@ header {
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-image: url("/assets/photos/pattern_bg.png");
+    background-image: url("../assets/photos/pattern_bg.png");
   }
 
   .programs-section .program-content {
@@ -266,6 +271,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 13px;
   }
 
   .card-inner .card-description {
@@ -295,8 +301,8 @@ header {
 
   /* pioneers section */
   .pioneers-section {
-    min-height: 900px;
-    background-color: var(--primary);
+    padding: 75px 50px 74px 50px;
+    background-color: #f8f8f8;
   }
 
   .pioneers-container {
@@ -305,6 +311,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 40px;
+    margin: auto;
   }
 
   #pioneers-row {
@@ -406,15 +413,14 @@ header {
   }
 
   footer {
-    height: 245px;
-    background-color: var(--primary);
+    padding: 74px 221px 73px 221px;
+    background-color: #f2f2f2;
     display: flex;
     align-items: center;
   }
 
   footer .credit {
     display: inline-flex;
-    padding: 35px 120px;
     justify-content: center;
     align-items: center;
   }
@@ -443,6 +449,15 @@ header {
     letter-spacing: -0.56px;
   }
 
+  .hackathon-motive {
+    color: #fff;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.56px;
+  }
+
   .company-logo {
     width: 200px;
     height: 81px;
@@ -450,7 +465,7 @@ header {
 }
 
 /* mobile version */
-@media (width < 768px) {
+@media (width <= 768px) {
   #nav-banner {
     display: none;
   }
@@ -458,7 +473,7 @@ header {
   h1 {
     font-size: 36px;
     font-weight: 900;
-    background-image: url("/assets/photos/text.jpg");
+    background-image: url("../assets/photos/text.jpg");
     background-position: center;
     -webkit-background-clip: text;
     background-size: cover;
@@ -539,7 +554,7 @@ header {
   /* headline section */
   .headline {
     background-color: var(--primary);
-    background-image: url("/assets/photos/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
+    background-image: url("../assets/photos/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
     min-height: 500px;
     width: 100%;
     background-size: cover;
@@ -624,7 +639,7 @@ header {
     width: 100%;
     justify-content: center;
     align-items: center;
-    background-image: url("/assets/photos/pattern_bg.png");
+    background-image: url("../assets/photos/pattern_bg.png");
   }
 
   .programs-section .program-content {
@@ -713,8 +728,8 @@ header {
   }
 
   .pioneers-section {
-    min-height: 900px;
-    background-color: var(--primary);
+    padding: 32px 4px;
+    background-color: #f8f8f8;
   }
 
   .pioneers-container {
@@ -838,7 +853,7 @@ header {
 
   footer {
     height: 100%;
-    background-color: var(--primary);
+    background-color: #f2f2f2;
     padding: 27px 25px;
   }
 
@@ -861,6 +876,14 @@ header {
   }
 
   .credit-text h4 {
+    color: #3b3e45;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.1px;
+  }
+
+  .hackathon-motive {
     color: #3b3e45;
     font-size: 10px;
     font-style: normal;

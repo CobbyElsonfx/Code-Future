@@ -94,7 +94,7 @@ Clone this repository to your desired folder:
 ```sh
   cd my-folder
   git clone https://github.com/CobbyElsonfx/Code-Future.git
-
+```
 ### Install
 
 Install this project with:

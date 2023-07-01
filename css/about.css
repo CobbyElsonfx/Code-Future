@@ -163,7 +163,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("/assets/photos/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
+    background-image: url("../assets/photos/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
     background-size: cover;
     position: relative;
     padding-top: 6rem;
@@ -395,7 +395,7 @@ header {
 }
 
 /* PIONEERS SECTION */
-@media (width < 768px) {
+@media (width <= 768px) {
   #nav-banner {
     display: none;
   }
@@ -486,7 +486,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url("/assets/photos/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
+    background-image: url("../assets/photos/michael-dziedzic-gEN5Btvf2Eg-unsplash.jpg");
     background-size: cover;
     position: relative;
     padding-top: 25%;
@@ -738,13 +738,15 @@ header {
     background-color: var(--primary);
     display: flex;
     align-items: center;
+    padding: 27px 25px;
   }
 
   footer .credit {
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
+    gap: 29px;
     justify-content: center;
     align-items: center;
-    padding: 25px 25px;
   }
 
   .credit.container {

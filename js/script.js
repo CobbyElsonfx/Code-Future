@@ -40,33 +40,33 @@ function renderDynamicData() {
       name: 'Yachai Benkler',
       intro: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
       description:
-        'Benkler studies commons-based peer production, and published his seminal book, The Wealth of Networks in 2006',
+        'Benkler studies commons-based peer production, and published his seminal',
       image: 'assets/photos/speaker_01 1 (1).png',
 
     },
     {
       name: 'Patience Aikins',
       intro: 'President of Young Pirates of Europe',
-      description: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
+      description: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration',
       image: 'assets/photos/speaker_01 1 (2).png',
 
     },
     {
       name: 'Kwabena Andoh',
       intro: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
-      description: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
-      image: '/assets/photos/speaker_01 1 (3).png',
+      description: 'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding ',
+      image: 'assets/photos/speaker_01 1 (3).png',
     },
     {
       name: 'Thomas Sarkodie',
       intro: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
-      description: 'European ingetration, political democracy and participation of youth through online as her major condern, Reda’s report outlining potential changes to EU copyright law was approved by the Parliament in July',
+      description: 'European ingetration, political democracy and participation of youth through online as her major condern, Reda’s report outlining potential changes to EU copyright law',
       image: 'assets/photos/speaker_01 1 (4).png',
     },
     {
       name: 'Andoh Francis',
       intro: 'Executive Director of the Wikimedia Foundation',
-      description: 'European ingetration, political democracy and participation of youth through online as her major condern, Reda’s report outlining potential changes to EU copyright law was approved by the Parliament in July',
+      description: 'European ingetration, political democracy and participation of youth through online as her major condern, Reda’s report outlining potential',
       image: 'assets/photos/speaker_01 1 (5).png',
     },
     {
@@ -85,7 +85,7 @@ function renderDynamicData() {
               <div class="about-pioneer">
                 <h3 class="name" >${eachPerson.name}</h3>
                 <p class="intro">${eachPerson.intro}</p>
-                <img src="/assets/photos/underline.svg" alt="bar">
+                <img id="pionneer-underline-bar" src="./assets/photos/unserlinbrown.svg" alt="bar">
                 <p class="description">${eachPerson.description}</p>
               </div>
             </div>
