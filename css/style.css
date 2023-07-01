@@ -42,8 +42,8 @@ a {
 }
 
 #pionneer-underline-bar {
-  background: #D9D9D9;
-  color:#D9D9D9;;
+  background: #d9d9d9;
+  color: #d9d9d9;
 }
 
 header {
@@ -301,7 +301,7 @@ header {
   /* pioneers section */
   .pioneers-section {
     padding: 75px 50px 74px 50px;
-    background-color: #F8F8F8;
+    background-color: #f8f8f8;
   }
 
   .pioneers-container {
@@ -413,7 +413,7 @@ header {
 
   footer {
     padding: 74px 221px 73px 221px;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     display: flex;
     align-items: center;
   }
@@ -449,7 +449,7 @@ header {
   }
 
   .hackathon-motive {
-    color: #FFF;
+    color: #fff;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
@@ -727,8 +727,8 @@ header {
   }
 
   .pioneers-section {
-    padding:32px 4px;
-    background-color:#F8F8F8;
+    padding: 32px 4px;
+    background-color: #f8f8f8;
   }
 
   .pioneers-container {
@@ -852,7 +852,7 @@ header {
 
   footer {
     height: 100%;
-    background-color: #F2F2F2;
+    background-color: #f2f2f2;
     padding: 27px 25px;
   }
 
@@ -883,7 +883,7 @@ header {
   }
 
   .hackathon-motive {
-    color: #3B3E45;
+    color: #3b3e45;
     font-size: 10px;
     font-style: normal;
     font-weight: 700;
