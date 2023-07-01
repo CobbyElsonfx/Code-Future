@@ -85,7 +85,7 @@ function renderDynamicData() {
               <div class="about-pioneer">
                 <h3 class="name" >${eachPerson.name}</h3>
                 <p class="intro">${eachPerson.intro}</p>
-                <img src="/assets/photos/underline.svg" alt="bar">
+                <img src="./assets/photos/underline.svg" alt="bar">
                 <p class="description">${eachPerson.description}</p>
               </div>
             </div>
