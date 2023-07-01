@@ -395,7 +395,7 @@ header {
 }
 
 /* PIONEERS SECTION */
-@media (width < 768px) {
+@media (width <= 768px) {
   #nav-banner {
     display: none;
   }
@@ -735,16 +735,18 @@ header {
   }
 
   footer {
-    background-color: var(--primary);
+    background-color:var(--primary);
     display: flex;
     align-items: center;
+    padding: 27px 25px;
   }
 
   footer .credit {
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
+    gap: 29px;
     justify-content: center;
     align-items: center;
-    padding: 25px 25px;
   }
 
   .credit.container {
