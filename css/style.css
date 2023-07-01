@@ -449,7 +449,6 @@ header {
   }
 }
 
-
 /* mobile version */
 @media (width < 768px) {
   #nav-banner {
@@ -797,7 +796,6 @@ header {
     line-height: 14px;
     letter-spacing: -0.54px;
   }
-
 
   /* SPONSORS ECTION */
   .sponsors-section {
