@@ -24,7 +24,6 @@ body {
 * {
   box-sizing: border-box;
   padding: 0;
-  border: 1px solid red;
 }
 
 li {
@@ -92,12 +91,8 @@ header {
     text-align: center;
     font-size: 70px;
     font-weight: 900;
-    background-image: url("/assets/photos/text.jpg");
-    background-position: center;
-    background-clip: text;
-    -webkit-background-clip: text;
-    background-size: cover;
-    color: transparent;
+    z-index: 3;
+    color: #ec4327;
   }
 
   .screen-width {
