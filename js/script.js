@@ -46,14 +46,14 @@ const featuresArray = [
      
     },
     {
-      name: 'Richmond Owusu',
+      name: 'Patience Aikins',
       intro: 'President of Young Pirates of Europe',
       description:'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
       image: 'assets/photos/speaker_01 1 (2).png',
        
       },
     {
-      name: 'Yaw Abochie',
+      name: 'Kwabena Andoh',
       intro: 'Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
       description:'As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.',
       image: '/assets/photos/speaker_01 1 (3).png',
@@ -84,10 +84,11 @@ const featuresArray = [
   const eachFeature = featuresArray.map((eachPerson)=> 
   `
   <div class="col-xm-12 col-sm-12 col-md-5 card-container">
-              <img class="card-img" src= "${eachPerson.image}" alt="">
+              <img class="card-img" src= "${eachPerson.image}" alt="pioneer img">
               <div class="about-pioneer">
                 <h3 class="name" >${eachPerson.name}</h3>
                 <p class="intro">${eachPerson.intro}</p>
+                <img src="/assets/photos/underline.svg" alt="bar">
                 <p class="description">${eachPerson.description}</p>
               </div>
             </div>
