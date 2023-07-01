@@ -41,6 +41,11 @@ a {
   align-items: center;
 }
 
+#pionneer-underline-bar {
+  background: #D9D9D9;
+  color:#D9D9D9;;
+}
+
 header {
   position: fixed;
   z-index: 1000;
@@ -295,7 +300,7 @@ header {
 
   /* pioneers section */
   .pioneers-section {
-    padding: 75px 70px 74px 70px;
+    padding: 75px 50px 74px 50px;
     background-color: #F8F8F8;
   }
 
@@ -305,6 +310,7 @@ header {
     align-items: center;
     justify-content: center;
     gap: 40px;
+    margin: auto;
   }
 
   #pioneers-row {
